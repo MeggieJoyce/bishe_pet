@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/demo/demo",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "掌上宠帮"
+			}
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pethospital/pethospital",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "掌上宠帮",
+		"navigationBarBackgroundColor": "#ffce00",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#555555",
+		"selectedColor":"#F0AD4E",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/tabbar/index-0.png",
+			"selectedIconPath":"static/tabbar/index.png"
+		},
+		{
+			"pagePath":"pages/community/community",
+			"text":"社区动态",
+			"iconPath":"static/tabbar/community-0.png",
+			"selectedIconPath":"static/tabbar/community.png"
+		},
+		{
+			"pagePath":"pages/pethospital/pethospital",
+			"text":"医院预约",
+			"iconPath":"static/tabbar/pethospital-0.png",
+			"selectedIconPath":"static/tabbar/pethospital.png"
+		},
+		{
+			"pagePath":"pages/me/me",
+			"text":"我的",
+			"iconPath":"static/tabbar/me-0.png",
+			"selectedIconPath":"static/tabbar/me.png"
+		}]
+	}
+}
